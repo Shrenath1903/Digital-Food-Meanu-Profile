@@ -507,6 +507,11 @@ img{max-width:100%;display:block;}
     margin: 0 auto;
     transform: translateY(-18px);
   }
+  .poster-grid{grid-template-columns:1fr;}
+  .poster-card{max-width:100%;}
+  .poster-preview{min-height:auto;padding:0;}
+  .poster-preview span{width:100%;padding:16px;}
+  .poster-preview img{width:100%;height:auto;object-fit:contain;}
   .back-to-top{right:90px;bottom:24px;width:42px;height:42px;}
   .whatsapp-float{width:52px;height:52px;font-size:1.5rem;}
 }
@@ -515,4 +520,6 @@ img{max-width:100%;display:block;}
   .footer-inner{grid-template-columns:1fr;}
   .hero-text h1{font-size:2rem;}
   .section-head h2{font-size:1.7rem;}
+  .poster-card h3{font-size:1.2rem;}
+  .poster-card p{font-size:.92rem;}
 }
